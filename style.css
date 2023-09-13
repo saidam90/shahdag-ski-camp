@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant+Infant:ital,wght@0,300;1,300&family=Montserrat:wght@100;200;300;400;500&family=Poiret+One&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*::after {
+  color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  overflow: auto;
+  background: linear-gradient(
+      to top,
+      rgb(255, 255, 255) 25%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    url();
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 50px;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar {
+  padding-top: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 15rem;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar-item a {
+  margin: 4rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.navbar-link {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.navbar-item a:hover {
+  text-decoration: underline;
+}
+
+.btn-action {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #ffff;
+  padding: 1.5rem 3rem;
+  background-color: #5879d5;
+  border-radius: 20px;
+  border: none;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-action:hover {
+  background-color: #2d3f72;
+  transform: scale(1.2);
+}
+
+@keyframes floating {
+  0% {
+    top: 0rem;
+  }
+  100% {
+    top: -2rem;
+  }
+}
+
+/* header {
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+} */
+
+.title {
+  margin-top: 12rem;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+
+.title-principal {
+  color: #ffff;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.title-principal h1,
+.section-text h1 {
+  font-family: "Poiret One";
+  font-size: 7rem;
+  color: #445576;
+  margin: 30px 0;
+}
+
+.title-principal p,
+.section-text ul {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  color: #2b2b2b;
+  text-transform: none;
+  margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.section-text {
+  text-align: right;
+  margin: 50px 0;
+}
+
+.section-text li {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.section-text li p {
+  margin-bottom: 17px;
+  list-style-type: none;
+  line-height: 20px;
+}
+
+.title-small {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #272727;
+  letter-spacing: 1rem;
+  /* text-transform: uppercase; */
+  margin: 1rem 0.4rem;
+  font-family: "Poiret One";
+}
+
+.sections {
+  margin: 50px 0;
+}
+
+.section {
+  padding: 0 10rem;
+  margin-bottom: 150px;
+}
+
+.call-to-action {
+  margin-top: 1rem;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Images */
+
+.skier {
+  position: absolute;
+  top: 20rem;
+  animation: floating 2s linear infinite alternate;
+  z-index: -1;
+}
+
+.skier img {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+#section1 .skier-boy img {
+  width: 103%;
+  margin-top: 30px;
+}
+
+#section2 .skier-kids img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+/* .sponsors__heading--main {
+  color: #ffff;
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  opacity: 0.03;
+  font-family: "Montsserat", sans-serif;
+  font-weight: 900;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sponsors__heading--hidden {
+  color: #ffff;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  left: 50%;
+  bottom: 14%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.sponsors__logos {
+  display: flex;
+} */
