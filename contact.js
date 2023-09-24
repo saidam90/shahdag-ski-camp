@@ -1,55 +1,28 @@
-$("#contactForm").submit(function (event) {
-  /* stop form from submitting normally */
-  event.preventDefault();
+window.onload = function () {
+  var successMessage = document.getElementById("success-message");
+  var contactForm = document.getElementById("contact-form");
 
-  /* get some values from elements on the page: */
-  var $form = $(this),
-    $submit = $form.find('button[type="submit"]'),
-    name_value = $form.find('input[name="name"]').val(),
-    email_value = $form.find('input[name="email"]').val(),
-    message_value = $form.find('textarea[name="message"]').val(),
-    url = $form.attr("action");
+  contactForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    // Generate a five-digit number for the contact_number variable
+    this.contact_number.value = (Math.random() * 100000) | 0;
 
-  /* Send the data using post */
-  var posting = $.post(url, {
-    name: name_value,
-    email: email_value,
-    message: message_value,
+    emailjs.sendForm("service_i5pbl8w", "template_e8m6jsl", this).then(
+      function (response) {
+        console.log("Email sent successfully:", response);
+        // Display the success message
+        successMessage.textContent =
+          "Thank you for your message! We will get back to you soon.";
+        successMessage.style.color = "green"; // You can style the success message here
+        successMessage.style.display = "block"; // Make the success message visible
+
+        // Optionally, clear the form inputs
+        contactForm.reset();
+      },
+      function (error) {
+        console.log("FAILED...", error);
+        // Handle the error, display an error message, or take appropriate action.
+      }
+    );
   });
-
-  posting.done(function (data) {
-    /* Put the results in a div */
-    $("#contactResponse").html(data);
-
-    /* Change the button text. */
-    $submit.text("Sent, Thank you");
-
-    /* Disable the button. */
-    $submit.attr("disabled", true);
-  });
-});
-
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent the default form submission
-
-    // Extract form data
-    const formData = new FormData(event.target);
-
-    // You can use the Fetch API to send the form data to the server
-    fetch("contact.php", {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => response.text())
-      .then((message) => {
-        // Display the message on the page
-        document.getElementById(
-          "contactResponse"
-        ).innerHTML = `<p>${message}</p>`;
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  });
+};

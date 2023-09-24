@@ -2,15 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shahdag Ski Camp</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
     <script src="contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('IAPCfIhTf9Q12j7YF');
+        })();
+    </script>
   </head>
 
   <body>
@@ -55,9 +62,8 @@
               зимы и совершенствовать свои навыки в горных лыжах.
             </p>
           </div>
-          <div class="btn-cta">
-            <a href="#section4" class="btn btn-action">Забронировать</a>
-          </div>
+            <a href="#section4" class="btn btn-action">Записаться</a>
+
         </div>
         <div>
           <div class="skier">
@@ -148,15 +154,49 @@
 
         <section id="section4">
           <div class="section-text">
-            <h1>Связь с нами</h1>
+            <h1>Для записи и связи с нами</h1>
           </div>
-          <div>
-            <a href="mailto:murtazalisaida@gmail.com" class="button">Send Email</a>
+          <div class="contact-form">
+            <form>
+              <label class="label">Имя</label>
+              <input type="text" name="user_name" class="input">
+              <label class="label">Email</label>
+              <input type="email" name="user_email" class="input">
+              <label class="label">Номер телефона</label>
+              <input type="tel" name="contact_number" class="input">
+              <label class="label">Сообщение</label>
+              <textarea name="message" class="message-input"></textarea>
+              <button type="submit" class="btn-action">Отправить</button>
+            </form>
+            <div id="success-message" style="color: green; display: none;">
+              Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.
+            </div>
           </div>
         </section>
       </sections>
-
-      </div>
     </div>
   </body>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-text">
+        <div class="row icon-container">
+          <a href="https://www.facebook.com/shahdagresort/" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/shahdag.resort" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/c/ShahdagMountainResort" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="row">
+          <ul>
+            <li><a href="#section1">Программа</a></li>
+            <li><a href="#section2">Цены</a></li>
+            <li><a href="#section3">FAQ</a></li>
+            <li><a href="#section4">Связь с нами</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          Copyright © 2023 Shahdag Mountain Resort
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
