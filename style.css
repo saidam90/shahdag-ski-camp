@@ -260,11 +260,12 @@ body {
 .footer {
   padding: 150px 0px 150px 0;
   font-weight: 300;
-  background-image: url("images/footer.jpg"); /* Replace with your image file name */
+  background-image: url("images/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   font-weight: 500;
+  height: 500px;
 }
 
 .footer-text {
