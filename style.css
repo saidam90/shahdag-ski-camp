@@ -265,7 +265,7 @@ body {
 .footer {
   padding: 150px 0px 150px 0;
   font-weight: 300;
-  background-image: url("/images/Footer.jpg"); /* Replace with your image file name */
+  background-image: url("images/Footer.jpg"); /* Replace with your image file name */
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
