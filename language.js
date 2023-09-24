@@ -23,12 +23,6 @@ const translations = {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Your code here
-
-  const translations = {
-    // ... Your translation data ...
-  };
-
   function translatePage(language) {
     const elements = document.querySelectorAll("[data-translate]");
     elements.forEach((element) => {
@@ -39,19 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Add event listeners to language icons for changing the language
-  document.getElementById("switch-to-en").addEventListener("click", () => {
-    translatePage("en");
-    console.log("Switched to English");
-  });
-
-  document.getElementById("switch-to-ru").addEventListener("click", () => {
-    translatePage("ru");
-    console.log("Switched to Russian");
-  });
-
-  document.getElementById("switch-to-az").addEventListener("click", () => {
-    translatePage("az");
-    console.log("Switched to Azerbaijani");
+  // Add event listener to the language selector
+  const languageSelector = document.getElementById("language-selector");
+  languageSelector.addEventListener("change", () => {
+    const selectedLanguage = languageSelector.value;
+    translatePage(selectedLanguage);
+    console.log("Switched to " + selectedLanguage);
   });
 });
