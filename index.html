@@ -42,18 +42,25 @@
             <li class="navbar-item">
               <a href="#section4" class="navbar-link">Связь с нами</a>
             </li>
+            <div>
+              <select id="language-selector">
+                <option value="en" id="switch-to-en">🇬🇧</option>
+                <option value="ru" id="switch-to-ru">🇷🇺</option>
+                <option value="az" id="switch-to-az">🇦🇿</option>
+              </select>
+            </div>
           </ul>
         </nav>
       </header>
 
       <div class="title">
         <div class="title-text">
-          <div class="title-small">
+          <div class="title-small" data-translate="title-small">
             <p>зимний дневной</p>
           </div>
           <div class="title-principal">
-            <h1>Детский Лагерь</h1>
-            <p>
+            <h1 data-translate="page-title">Детский Лагерь</h1>
+            <p data-translate="welcome-text">
               Приготовьтесь к незабываемому зимнему приключению в Детском
               горнолыжном лагере Шахдаг! Присоединяйтесь к нам в самом сердце
               покрытых снегом гор для захватывающего и образовательного опыта,
@@ -62,7 +69,7 @@
               зимы и совершенствовать свои навыки в горных лыжах.
             </p>
           </div>
-            <a href="#section4" class="btn btn-action">Записаться</a>
+            <a href="#section4" class="btn btn-action" data-translate="signup-button">Записаться</a>
 
         </div>
         <div>
@@ -156,8 +163,8 @@
           <div class="section-text">
             <h1>Для записи и связи с нами</h1>
           </div>
-          <div class="contact-form">
-            <form>
+          <div>
+            <form id="contact-form">
               <label class="label">Имя</label>
               <input type="text" name="user_name" class="input">
               <label class="label">Email</label>
@@ -168,13 +175,14 @@
               <textarea name="message" class="message-input"></textarea>
               <button type="submit" class="btn-action">Отправить</button>
             </form>
-            <div id="success-message" style="color: green; display: none;">
-              Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.
-            </div>
+          </div>
+          <div id="success-message" style="color: green; display: none;">
+            Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.
           </div>
         </section>
       </sections>
     </div>
+    <script src="language.js"></script>
   </body>
 
   <footer>

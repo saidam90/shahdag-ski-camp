@@ -20,7 +20,7 @@ window.onload = function () {
         contactForm.reset();
       },
       function (error) {
-        console.log("FAILED...", error);
+        console.error("Email sending failed:", error);
         // Handle the error, display an error message, or take appropriate action.
       }
     );
