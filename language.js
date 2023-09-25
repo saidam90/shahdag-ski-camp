@@ -1,7 +1,7 @@
 const translations = {
   en: {
     "title-small": "winter daytime",
-    "page-title": "Children's Camp",
+    "page-title": "Kids Camp",
     "welcome-text":
       "Get ready for an unforgettable winter adventure at the Shahdag Children's Ski Camp! Join us in the heart of the snow-capped mountains for an exciting and educational experience designed especially for young skiers. Our camp is the perfect opportunity for children to immerse themselves in the magic of winter for the first time and improve their skiing skills.",
     "signup-button": "Sign Up",

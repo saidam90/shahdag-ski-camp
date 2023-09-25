@@ -145,7 +145,7 @@ body {
 }
 
 .section-text li {
-  list-style-type: none;
+  /* list-style-type: none; */
   line-height: 40px;
 }
 
