@@ -18,23 +18,48 @@
             emailjs.init('IAPCfIhTf9Q12j7YF');
         })();
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.getElementById("menu-toggle");
+        const navbar = document.getElementById("navbar");
+
+        menuToggle.addEventListener("click", () => {
+          navbar.classList.toggle("show");
+          console.log("Menu button clicked");
+        });
+
+        // Close the menu when a menu item is clicked
+        const navbarItems = document.querySelectorAll(".navbar-item");
+
+        navbarItems.forEach((item) => {
+          item.addEventListener("click", () => {
+            navbar.classList.remove("show");
+          });
+        });
+      });
+    </script>
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <nav class="navbar">
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="navbar" id="navbar">
           <div class="navbar-logo">
             <a href="https://www.shahdag.az/ru">
               <img src="images/logo.png" alt="" />
             </a>
           </div>
-          <ul class="navbar-list">
+          <ul class="navbar-list" id="navbar-list">
             <li class="navbar-item">
               <a href="#section1" class="navbar-link">Программа</a>
             </li>
             <li class="navbar-item">
-              <a href="#section2" class="navbar-link"">Цены</a>
+              <a href="#section2" class="navbar-link">Цены</a>
             </li>
             <li class="navbar-item">
               <a href="#section3" class="navbar-link">Для информации</a>
@@ -52,6 +77,7 @@
           </ul>
         </nav>
       </header>
+
 
       <div class="title">
         <div class="title-text">

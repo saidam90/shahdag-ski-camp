@@ -111,10 +111,8 @@ body {
 
 .title {
   margin-top: 12rem;
-  width: 45%;
   display: flex;
   flex-direction: row;
-  margin-bottom: 200px;
 }
 
 .title-principal {
@@ -316,19 +314,10 @@ body {
   color: white;
 }
 
-@media (max-width: 720px) {
-  .footer {
-    text-align: center;
-  }
-
-  .footer .row ul li {
-    display: block;
-    margin: 10px 0px;
-    text-align: center;
-  }
-
-  .footer .row a i {
-    margin: 0% 3%;
+@media (min-width: 992px) {
+  .title {
+    width: 45%;
+    margin-bottom: 200px;
   }
 }
 
@@ -336,6 +325,14 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 1.6rem;
+  }
+
+  .title {
+    margin-top: 80rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
   }
 
   .container {
@@ -373,11 +370,16 @@ body {
   }
 
   /* Adjust the size of some images on smaller screens */
-  .skier img,
   .skier-boy img,
   .skier-kids img,
   .kids img {
     width: 50rem;
+  }
+
+  .skier img {
+    width: 80rem;
+    display: flex;
+    flex-flow: right;
   }
 
   #section1,
@@ -389,6 +391,20 @@ body {
     align-items: center;
     text-align: center;
     gap: 60px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  .footer .row a i {
+    margin: 0% 3%;
   }
 }
 
@@ -411,10 +427,11 @@ body {
   }
 
   .title {
-    margin-top: 12rem;
-    width: 50%;
+    margin-top: 40rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
   }
 
   /* Reduce the font size for section headings on smaller screens */
@@ -440,7 +457,7 @@ body {
   .skier-boy img,
   .skier-kids img,
   .kids img {
-    width: 40rem;
+    width: 39rem;
   }
 
   #section1,
@@ -452,5 +469,49 @@ body {
     align-items: center;
     text-align: center;
     gap: 60px;
+  }
+}
+
+/* Add this CSS to style the hamburger menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+  #navbar {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .navbar-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .navbar-item {
+    padding: 10px;
+    text-align: center;
+  }
+  .navbar-link {
+    text-decoration: none;
+    color: #000;
   }
 }
