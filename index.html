@@ -18,26 +18,6 @@
             emailjs.init('IAPCfIhTf9Q12j7YF');
         })();
     </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const menuToggle = document.getElementById("menu-toggle");
-        const navbar = document.getElementById("navbar");
-
-        menuToggle.addEventListener("click", () => {
-          navbar.classList.toggle("show");
-          console.log("Menu button clicked");
-        });
-
-        // Close the menu when a menu item is clicked
-        const navbarItems = document.querySelectorAll(".navbar-item");
-
-        navbarItems.forEach((item) => {
-          item.addEventListener("click", () => {
-            navbar.classList.remove("show");
-          });
-        });
-      });
-    </script>
   </head>
 
   <body>
@@ -209,6 +189,16 @@
       </sections>
     </div>
     <script src="language.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.getElementById("menu-toggle");
+        const navbar = document.getElementById("navbar");
+
+        menuToggle.addEventListener("click", () => {
+          navbar.classList.toggle("show");
+        });
+      });
+    </script>
   </body>
 
   <footer>

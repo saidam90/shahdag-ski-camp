@@ -328,7 +328,7 @@ body {
   }
 
   .title {
-    margin-top: 80rem;
+    margin-top: 70rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -336,7 +336,7 @@ body {
   }
 
   .container {
-    margin: 0 20px;
+    margin: 0 40px;
   }
 
   .navbar-logo img {
@@ -377,7 +377,7 @@ body {
   }
 
   .skier img {
-    width: 80rem;
+    width: 72.5rem;
     display: flex;
     flex-flow: right;
   }
@@ -414,8 +414,15 @@ body {
     font-size: 1.4rem;
   }
 
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+
   .container {
-    margin: 0 10px; /* Adjust container margins for smaller screens */
+    margin: 0 30px; /* Adjust container margins for smaller screens */
   }
 
   .navbar-item a {
@@ -427,7 +434,7 @@ body {
   }
 
   .title {
-    margin-top: 40rem;
+    margin-top: 37rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -457,7 +464,7 @@ body {
   .skier-boy img,
   .skier-kids img,
   .kids img {
-    width: 39rem;
+    width: 36rem;
   }
 
   #section1,
@@ -473,6 +480,7 @@ body {
 }
 
 /* Add this CSS to style the hamburger menu */
+
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -491,7 +499,11 @@ body {
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
   }
+
   #navbar {
     display: none;
     flex-direction: column;
