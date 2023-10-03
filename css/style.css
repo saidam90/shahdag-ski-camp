@@ -318,15 +318,139 @@ body {
 
 @media (max-width: 720px) {
   .footer {
-    text-align: left;
-    padding: 5%;
+    text-align: center;
   }
+
   .footer .row ul li {
     display: block;
     margin: 10px 0px;
-    text-align: left;
+    text-align: center;
   }
+
   .footer .row a i {
     margin: 0% 3%;
+  }
+}
+
+/* Media query for screens smaller than 768px (e.g., iPads) */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .navbar-logo img {
+    width: 10rem;
+  }
+
+  .navbar-item a {
+    margin: 1.7rem;
+  }
+
+  .btn-action {
+    padding: 1.2rem 2rem;
+  }
+
+  .skier {
+    top: 15rem;
+  }
+
+  .title-principal h1,
+  .section-text h1 {
+    font-size: 5rem;
+  }
+
+  .title-principal p,
+  .section-text ul,
+  .section-text p,
+  .section-text li,
+  .message-input {
+    font-size: 1.2rem;
+    line-height: 24px;
+  }
+
+  /* Adjust the size of some images on smaller screens */
+  .skier img,
+  .skier-boy img,
+  .skier-kids img,
+  .kids img {
+    width: 50rem;
+  }
+
+  #section1,
+  #section2,
+  #section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+  }
+}
+
+/* Media query for screens smaller than 480px (e.g., mobile devices) */
+@media (max-width: 480px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    margin: 0 10px; /* Adjust container margins for smaller screens */
+  }
+
+  .navbar-item a {
+    margin: 1.2rem;
+  }
+
+  .skier {
+    top: 10rem;
+  }
+
+  .title {
+    margin-top: 12rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Reduce the font size for section headings on smaller screens */
+  .title-principal h1,
+  .section-text h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  /* Reduce the font size and line height for text on smaller screens */
+  .title-principal p,
+  .section-text ul,
+  .section-text p,
+  .section-text li,
+  .message-input {
+    font-size: 1.1rem;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  /* Adjust the size of some images on smaller screens */
+  .skier img,
+  .skier-boy img,
+  .skier-kids img,
+  .kids img {
+    width: 40rem;
+  }
+
+  #section1,
+  #section2,
+  #section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
   }
 }
