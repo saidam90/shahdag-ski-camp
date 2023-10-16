@@ -18,7 +18,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   overflow: auto;
-  position: relative;
+  /* position: relative; */
   max-width: 100%;
   height: 100vh;
 }
@@ -122,12 +122,18 @@ body {
   text-transform: capitalize;
 }
 
-.title-principal h1,
-.section-text h1 {
-  font-family: "Poiret One";
+.title-principal h1 {
+  font-family: "Montserrat";
   font-size: 7rem;
   color: #445576;
-  margin: 0 0 30px 0;
+  margin: 10px 0 30px 0;
+}
+
+.section-text h1 {
+  font-family: "Montserrat";
+  font-size: 7rem;
+  color: #445576;
+  margin: 40px 0 30px 0;
 }
 
 .title-principal p,
@@ -204,7 +210,7 @@ body {
 .skier-boy img,
 .skier-kids img,
 .kids img {
-  width: 70rem;
+  width: 60rem;
 }
 
 #section4 h1 {
@@ -365,6 +371,7 @@ body {
   .title-principal h1,
   .section-text h1 {
     font-size: 5rem;
+    margin: 30px 0 30px 0;
   }
 
   .title-principal p,
@@ -486,57 +493,8 @@ body {
   }
 }
 
-/* Add this CSS to style the hamburger menu */
-
-.menu-toggle {
-  display: none;
-  position: absolute;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 9999;
-  top: 20px; /* Adjust this value to control the vertical position */
-  right: 20px; /* Adjust this value to control the horizontal position */
-}
-
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 3px 0;
-  border-radius: 3px;
-}
-
 @media (max-width: 480px) {
-  .menu-toggle {
-    display: flex;
-  }
-
-  .navbar {
+  #navbar-list {
     display: none; /* Hide the regular navbar on small screens */
-  }
-
-  .navbar.show {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #fff;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    z-index: 1;
-    /* top: 60px; */
-  }
-
-  .nav-links.show {
-    display: block;
-  }
-
-  .nav-links li {
-    padding: 10px;
-    text-align: center;
   }
 }

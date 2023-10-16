@@ -23,11 +23,6 @@
   <body>
     <div class="container">
       <header class="header">
-        <div class="menu-toggle" id="menu-toggle">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
         <nav class="navbar" id="navbar">
           <div class="navbar-logo">
             <a href="https://www.shahdag.az/ru">
@@ -36,22 +31,22 @@
           </div>
           <ul class="navbar-list" id="navbar-list">
             <li class="navbar-item">
-              <a href="#section1" class="navbar-link">Программа</a>
+              <a href="#section1" class="navbar-link" data-translate="section1">Программа</a>
             </li>
             <li class="navbar-item">
-              <a href="#section2" class="navbar-link">Цены</a>
+              <a href="#section2" class="navbar-link" data-translate="section2">Цены</a>
             </li>
             <li class="navbar-item">
-              <a href="#section3" class="navbar-link">Для информации</a>
+              <a href="#section3" class="navbar-link" data-translate="section3">Для информации</a>
             </li>
             <li class="navbar-item">
-              <a href="#section4" class="navbar-link">Связь с нами</a>
+              <a href="#section4" class="navbar-link" data-translate="section4">Связь с нами</a>
             </li>
             <div>
               <select id="language-selector">
-                <option value="en" id="switch-to-en">🇬🇧</option>
+                <option value="az" id="switch-to-az" selected>🇦🇿</option>
                 <option value="ru" id="switch-to-ru">🇷🇺</option>
-                <option value="az" id="switch-to-az">🇦🇿</option>
+                <option value="en" id="switch-to-en">🇬🇧</option>
               </select>
             </div>
           </ul>
@@ -91,17 +86,19 @@
             <img src="images/skier-boy.png" alt="skier-boy" />
           </div>
           <div class="section-text">
-            <h1>Программа</h1>
+            <h1 data-translate="program">Программа</h1>
             <ul>
               <li>
-                <strong>9:00 - 9:45 - Запись детей в лагерь</strong>
-                <p>Лыжная школа Zirve / Лыжная школа Shahdag</p>
+                <p data-translate="kids-registration"><strong>9:00 - 9:45 - Запись детей в лагерь</strong></p>
+                <p data-translate="ski-schools">Лыжная школа Zirve / Лыжная школа Shahdag</p>
               </li>
               <li>
-                <strong>9:45 - 10:00 - Подготовка к занятию и ознакомление с правилами лагеря</strong>
+                <p data-translate="preparation"><strong>9:45 - 10:00 - Подготовка к занятию и ознакомление с правилами лагеря</strong></p>
               </li>
               <li>
-                <strong>10:00 - 12:00 - Занятие с инструктором</strong>
+                <p data-translate="instructor-class">
+                  <strong>10:00 - 12:00 - Занятие с инструктором</strong>
+                </p>
                 <p>
                   Не более 8 детей на одного инструктора в группе. Трассу и программу обучения каждый инструктор выбирает индивидуально, в соответствии с уровнем.
                 </p>
@@ -125,21 +122,15 @@
         </div>
 
         <section id="section2">
-          <div class="section-text">
-            <h1>Цены</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-              numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-              optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-              obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-              nihil, eveniet aliquid culpa officia aut!</p>
-            <ul>
-              <li><strong>120 AZN цена за пол дня (10:00-14:00)</strong></li>
-              <li><strong>185 AZN цена для полного дня (10:00-16:00)</strong></li>
-            </ul>
-          </div>
           <div class="skier-kids">
             <img src="images/skier-kids.png" alt="skier-kids" />
+          </div>
+          <div class="section-text">
+            <h1 data-translate="prices">Цены</h1>
+            <ul>
+              <li data-translate="half-day"><strong>Пол дня: 120 ₼ (10:00 - 14:00)</strong></li>
+              <li data-translate="full-day"><strong>Полный день: 185 ₼ (10:00 - 16:00)</strong></li>
+            </ul>
           </div>
         </section>
 
