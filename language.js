@@ -42,6 +42,7 @@ const translations = {
     number: "Phone:",
     message: "Message:",
     send: "Send",
+    success: "Thank you for your message. We will get back to you shortly",
   },
   ru: {
     section1: "Программа",
@@ -85,6 +86,7 @@ const translations = {
     number: "Номер телефона:",
     message: "Сообщение:",
     send: "Отправить",
+    success: "Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.",
   },
   az: {
     section1: "Proqram",
@@ -128,6 +130,8 @@ const translations = {
     number: "Əlaqə nömrəsi:",
     message: "Mətin:",
     send: "Göndər",
+    success:
+      "Mesajınız üçün təşəkkür edirik. Sizə ən qısa zamanda cavab verəcəyik.",
   },
 };
 

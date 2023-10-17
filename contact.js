@@ -5,9 +5,9 @@ window.onload = function () {
   contactForm.addEventListener("submit", function (event) {
     event.preventDefault();
     // Generate a five-digit number for the contact_number variable
-    this.contact_number.value = (Math.random() * 100000) | 0;
+    // this.contact_number.value = (Math.random() * 100000) | 0;
 
-    emailjs.sendForm("service_i5pbl8w", "template_e8m6jsl", this).then(
+    emailjs.sendForm("service_w6scrm3", "template_6zqabwh", this).then(
       function (response) {
         console.log("Email sent successfully:", response);
         // Display the success message

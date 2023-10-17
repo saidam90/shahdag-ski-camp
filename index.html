@@ -15,7 +15,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init('IAPCfIhTf9Q12j7YF');
+            emailjs.init('7FEo7Sv_UA0JTeRwK');
         })();
     </script>
   </head>
@@ -50,6 +50,11 @@
               </select>
             </div>
           </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         </nav>
       </header>
 
@@ -167,13 +172,13 @@
               <label class="label">Email</label>
               <input type="email" name="user_email" class="input"required >
               <label class="label" data-translate="number">Номер телефона</label>
-              <input type="tel" name="contact_number" class="input" required>
+              <input type="tel" name="contact_number" class="input">
               <label class="label" data-translate="message">Сообщение</label>
               <textarea name="message" class="message-input" required></textarea>
               <button type="submit" class="btn-action" data-translate="send">Отправить</button>
             </form>
           </div>
-          <div id="success-message" style="color: green; display: none;">
+          <div id="success-message" style="color: green; display: none;" data-translate="success">
             Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.
           </div>
         </section>
