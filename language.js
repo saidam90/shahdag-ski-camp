@@ -5,7 +5,7 @@ const translations = {
     section3: "For information",
     section4: "Contact us",
     "title-small": "winter daytime",
-    "page-title": "Kids Camp",
+    "page-title": "Ski Camp for Children",
     "welcome-text":
       "Get ready for an unforgettable winter adventure at the Shahdag Children's Ski Camp! Join us in the heart of the snow-capped mountains for an exciting and educational experience designed especially for young skiers. Our camp is the perfect opportunity for children to immerse themselves in the magic of winter for the first time and improve their skiing skills.",
     "signup-button": "Sign Up",
@@ -20,6 +20,12 @@ const translations = {
     "instructor-class": "10:00 - 12:00 - Instructor class",
     "instructor-text":
       "No more than 8 children per instructor in a group. Each instructor chooses the route and training program individually, in accordance with the level.",
+    "cloth-changing": "12:00 - 12:30 - Clothes changing time",
+    "lunch-time": "12:30 - 14:00 - Lunch at Shahdag Hotel & Spa",
+    "ski-gear": "14:00 - 14:30 - Print on a ski board",
+    tubing: "15:00 - 16:00 - Tubing activity or continuing a ski lesson",
+    end: "16:15 - Parents pick up children from the school",
+    information: "For information",
   },
   ru: {
     section1: "Программа",
@@ -41,6 +47,12 @@ const translations = {
     "instructor-class": "10:00 - 12:00 - Занятие с инструктором",
     "instructor-text":
       "Не более 8 детей на одного инструктора в группе. Трассу и программу обучения каждый инструктор выбирает индивидуально, в соответствии с уровнем.",
+    "cloth-changing": "12:00 - 12:30 - Время для переодевания",
+    "lunch-time": "12:30 - 14:00 - Обед в отеле Shahdag Hotel & Spa",
+    "ski-gear": "14:00 - 14:30 - Отпечаток на лыжной доске",
+    tubing: "15:00 - 16:00 - Катание на тюбинге или продолжение урока на лыжах",
+    end: "16:15 - Сбор в школе, родители забирают детей",
+    information: "Для информации",
   },
   az: {
     section1: "Proqram",
@@ -50,7 +62,7 @@ const translations = {
     "title-small": "Uşaqlar üçün",
     "page-title": "Qış düşərgəsi",
     "welcome-text":
-      "Şahdağ Xizək Düşərgəsində uşaqlar unudulmaz qış istirahəti keçirəcəklər. Qarlı dağların qoynunda yerləşən uşaq düşərgəmizə qoşulun. Xizək bacarıqlarını təkminləşdirmək və qışın sehrini yaşamaq üçün ideal fürsətdir.",
+      "Şahdağ Xizək Düşərgəsində uşaqlar unudulmaz qış istirahəti keçirəcəklər. Qarlı dağların qoynunda yerləşən düşərgəmizdə balaca qonaqlarımız xizək bacarıqlarını təkmiləşdirəcək və qış əyləncələrindən zövq alacaqlar!",
     "signup-button": "Qeydiyyatdan keçin",
     program: "Proqram",
     "kids-registration": "9:00 - 9:45 - Uşaqların düşərgədə qeydiyyatı",
@@ -62,6 +74,13 @@ const translations = {
     "instructor-class": "10:00 - 12:00 - Təlimatçı ilə dərs",
     "instructor-text":
       "Bir təlimatçının  qrupunda maksumum 8 uşaq ola bilər. Hər bir təlimatçı uşaqların xizəksürmə qabilliyətinə uyğun olaraq marşrutu və təlim proqramını fərdi olaraq seçir.",
+    "clothes-changing":
+      "12:00 - 12:30 - Paltar dəyişilməsi üçün nəzərdə tutulan vaxt",
+    "lunch-time": "12:30 - 14:00 - Shahdag Hotel & Spa otelində nahar",
+    "ski-gear": "14:00 - 14:30 - Xizək lövhəsində iz",
+    tubing: "15:00 - 16:00 - Tübinq əyləncəsi və ya xizək dərsinə davam",
+    end: "16:15 - Valideynlər uşaqları xizək məktəbindən götürür",
+    information: "Məlumat üçün",
   },
 };
 
