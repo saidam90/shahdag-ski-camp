@@ -26,6 +26,17 @@ const translations = {
     tubing: "15:00 - 16:00 - Tubing activity or continuing a ski lesson",
     end: "16:15 - Parents pick up children from the school",
     information: "For information",
+    age: "The age of children to attend the children's camp ranges from 7-12 years",
+    "ski-gear2":
+      "Parents must bring their child at 09:45 with ski equipment: helmet, balaclava, hat, gloves, ski boots, winter shoes, skis",
+    "parent-contact": "Parents will need to leave their contact numbers",
+    "ski-pass": "Children do not need a Ski Pass while skiing",
+    "ski-pass2": "Ski Pass is included in the price",
+    group:
+      "All children are divided into groups depending on age, number of children and level of skiing",
+    chocolate:
+      "At the end of each class, children are awarded with chocolate medals",
+    doctor: "A doctor on duty will be present on site",
   },
   ru: {
     section1: "Программа",
@@ -53,6 +64,17 @@ const translations = {
     tubing: "15:00 - 16:00 - Катание на тюбинге или продолжение урока на лыжах",
     end: "16:15 - Сбор в школе, родители забирают детей",
     information: "Для информации",
+    age: "Возраст детей для посещения детского лагеря составляет от 7-12 лет",
+    "ski-gear2":
+      "Родители должны привести ребенка в 09:45 с лыжным снаряжением: шлем, балаклава, шапка, перчатки, лыжные ботинки, зимняя обувь, лыжи",
+    "parent-contact":
+      "Родители должны будут оставить контактные номера для связи",
+    "ski-pass": "Детям на время катания Ski Pass не нужен",
+    "ski-pass2": "Ski Pass будет включен в стоимость",
+    group:
+      "Все дети распределяются по группам в зависимости от возраста, уровня катания и количества детей",
+    chocolate: "В конце каждого занятия детям выдаются шоколадные медали",
+    doctor: "Дежурный врач будет присутствовать на территории",
   },
   az: {
     section1: "Proqram",
@@ -65,22 +87,32 @@ const translations = {
       "Şahdağ Xizək Düşərgəsində uşaqlar unudulmaz qış istirahəti keçirəcəklər. Qarlı dağların qoynunda yerləşən düşərgəmizdə balaca qonaqlarımız xizək bacarıqlarını təkmiləşdirəcək və qış əyləncələrindən zövq alacaqlar!",
     "signup-button": "Qeydiyyatdan keçin",
     program: "Proqram",
-    "kids-registration": "9:00 - 9:45 - Uşaqların düşərgədə qeydiyyatı",
+    "kids-registration": "9:00 - 9:45 - Uşaqların düşərgədə qeydiyyatı.",
     "ski-schools": "Zirve Xizək Məktəbi / Şahdağ Xizək Məktəbi",
-    preparation: "Xizək dərslərinə hazırlıq və düşərgə qaydaları ilə tanışlıq",
+    preparation: "Xizək dərslərinə hazırlıq və düşərgə qaydaları ilə tanışlıq.",
     prices: "Qiymətlər",
     "half-day": "Yarı gün: 120 ₼ (10:00 - 14:00)",
     "full-day": "Tam gün: 185 ₼ (10:00 - 16:00)",
-    "instructor-class": "10:00 - 12:00 - Təlimatçı ilə dərs",
+    "instructor-class": "10:00 - 12:00 - Təlimatçı ilə dərs.",
     "instructor-text":
       "Bir təlimatçının  qrupunda maksumum 8 uşaq ola bilər. Hər bir təlimatçı uşaqların xizəksürmə qabilliyətinə uyğun olaraq marşrutu və təlim proqramını fərdi olaraq seçir.",
     "clothes-changing":
-      "12:00 - 12:30 - Paltar dəyişilməsi üçün nəzərdə tutulan vaxt",
-    "lunch-time": "12:30 - 14:00 - Shahdag Hotel & Spa otelində nahar",
-    "ski-gear": "14:00 - 14:30 - Xizək lövhəsində iz",
-    tubing: "15:00 - 16:00 - Tübinq əyləncəsi və ya xizək dərsinə davam",
-    end: "16:15 - Valideynlər uşaqları xizək məktəbindən götürür",
+      "12:00 - 12:30 - Paltar dəyişilməsi üçün nəzərdə tutulan vaxt.",
+    "lunch-time": "12:30 - 14:00 - Shahdag Hotel & Spa otelində nahar.",
+    "ski-gear": "14:00 - 14:30 - Xizək lövhəsində iz.",
+    tubing: "15:00 - 16:00 - Tübinq əyləncəsi və ya xizək dərsinə davam.",
+    end: "16:15 - Valideynlər uşaqları xizək məktəbindən götürür.",
     information: "Məlumat üçün",
+    age: "Uşaq düşərgəsində iştirak edəcək uşaqların yaşı 7-12 yaş arasındadır.",
+    "ski-gear2":
+      "Valideyn uşağı saat 09:45-də xizək avadanlıqları ilə gətirməlidir: dəbilqə, papaq, əlcək, xizək çəkmələri, qış ayaqqabısı, xizək.",
+    "parent-contact": "Valideynlər əlaqə nömrələrini təqdim etməlidirlər.",
+    "ski-pass": "Uşaqlardan xizək sürərkən Ski-Pass tələb olunmur.",
+    "ski-pass2": "Ski Pass qiymətə daxildir.",
+    group:
+      "Bütün uşaqlar yaşa, uşaq sayı və xizəksürmə səviyyəsinə görə qruplara bölünür.",
+    chocolate: "Hər dərsin sonunda uşaqlara şokolad medalları təqdim olunur.",
+    doctor: "Düşərgədə növbətçi həkim olacaq.",
   },
 };
 
