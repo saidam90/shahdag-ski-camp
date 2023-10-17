@@ -84,6 +84,7 @@ body {
   border: none;
   transition: transform 0.3s ease;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .btn-action:hover {
@@ -223,6 +224,13 @@ body {
 #section4 {
   font-weight: 300;
   font-size: 1.8rem;
+}
+
+#section4 a {
+  display: flex;
+  justify-content: center;
+  margin: 0, auto;
+  width: 250px;
 }
 
 /* Contact form */

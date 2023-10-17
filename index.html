@@ -15,7 +15,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            emailjs.init('7FEo7Sv_UA0JTeRwK');
+            emailjs.init('QjWA_A6PI13I-JfbL');
         })();
     </script>
   </head>
@@ -50,11 +50,11 @@
               </select>
             </div>
           </ul>
-          <div class="hamburger">
+          <!-- <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-        </div>
+        </div> -->
         </nav>
       </header>
 
@@ -75,8 +75,9 @@
               зимы и совершенствовать свои навыки в горных лыжах.
             </p>
           </div>
-            <a href="#section4" class="btn btn-action" data-translate="signup-button">Записаться</a>
-
+          <div>
+            <a href="mailto:ski.school@shahdag.az" class="btn btn-action" data-translate="signup-button">Записаться</a>
+          </div>
         </div>
         <div>
           <div class="skier">
@@ -164,23 +165,27 @@
         <section id="section4">
           <div class="section-text">
             <h1 data-translate="contact-form">Для записи и связи с нами</h1>
-          </div>
-          <div>
+          <!-- <div>
             <form id="contact-form">
               <label class="label" data-translate="name">Имя</label>
-              <input type="text" name="user_name" class="input" required>
+              <input type="text" name="user_name" class="input" id="user_name" required>
               <label class="label">Email</label>
-              <input type="email" name="user_email" class="input"required >
+              <input type="email" name="user_email" class="input" id="user_email" required >
               <label class="label" data-translate="number">Номер телефона</label>
-              <input type="tel" name="contact_number" class="input">
+              <input type="tel" name="contact_number" class="input" id="contact-number">
               <label class="label" data-translate="message">Сообщение</label>
-              <textarea name="message" class="message-input" required></textarea>
+              <textarea name="message" class="message-input" id="message" required></textarea>
               <button type="submit" class="btn-action" data-translate="send">Отправить</button>
             </form>
           </div>
           <div id="success-message" style="color: green; display: none;" data-translate="success">
             Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.
+          </div> -->
+          <div>
+            <a href="mailto:ski.school@shahdag.az" class="btn btn-action" data-translate="signup-button">Записаться</a>
           </div>
+        </div>
+
         </section>
       </sections>
     </div>
