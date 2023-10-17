@@ -37,6 +37,11 @@ const translations = {
     chocolate:
       "At the end of each class, children are awarded with chocolate medals",
     doctor: "A doctor on duty will be present on site",
+    "contact-form": "Registration / Contact Us",
+    name: "Full Name:",
+    number: "Phone:",
+    message: "Message:",
+    send: "Send",
   },
   ru: {
     section1: "Программа",
@@ -75,6 +80,11 @@ const translations = {
       "Все дети распределяются по группам в зависимости от возраста, уровня катания и количества детей",
     chocolate: "В конце каждого занятия детям выдаются шоколадные медали",
     doctor: "Дежурный врач будет присутствовать на территории",
+    "contact-form": "Для записи и связи с нами",
+    name: "Фамилия, Имя:",
+    number: "Номер телефона:",
+    message: "Сообщение:",
+    send: "Отправить",
   },
   az: {
     section1: "Proqram",
@@ -113,6 +123,11 @@ const translations = {
       "Bütün uşaqlar yaşa, uşaq sayı və xizəksürmə səviyyəsinə görə qruplara bölünür.",
     chocolate: "Hər dərsin sonunda uşaqlara şokolad medalları təqdim olunur.",
     doctor: "Düşərgədə növbətçi həkim olacaq.",
+    "contact-form": "Qeydiyyat / Bizimlə əlaqə",
+    name: "Ad, Soyad:",
+    number: "Əlaqə nömrəsi:",
+    message: "Mətin:",
+    send: "Göndər",
   },
 };
 
