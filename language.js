@@ -10,14 +10,16 @@ const translations = {
       "Get ready for an unforgettable winter adventure at the Shahdag Children's Ski Camp! Join us in the heart of the snow-capped mountains for an exciting and educational experience designed especially for young skiers. Our camp is the perfect opportunity for children to immerse themselves in the magic of winter for the first time and improve their skiing skills.",
     "signup-button": "Sign Up",
     program: "Program",
-    "kids-registration": "9:00 - 9:45 - Uşaqların düşərgəyə qeydiyyatı",
+    "kids-registration": "9:00 - 9:45 - Registration at the camp",
     "ski-schools": "Zirve Ski School / Shahdag Ski School",
     preparation:
       "Preparation for the ski classes and familiarization with the camp rules",
-    prices: "Qiymətlər",
+    prices: "Prices",
     "half-day": "Half day: 120 ₼ (10:00 - 14:00)",
     "full-day": "Full day: 185 ₼ (10:00 - 16:00)",
-    "instructor-class": "",
+    "instructor-class": "10:00 - 12:00 - Instructor class",
+    "instructor-text":
+      "No more than 8 children per instructor in a group. Each instructor chooses the route and training program individually, in accordance with the level.",
   },
   ru: {
     section1: "Программа",
@@ -36,6 +38,9 @@ const translations = {
     prices: "Цены",
     "half-day": "Пол дня: 120 ₼ (10:00 - 14:00)",
     "full-day": "Полный день: 185 ₼ (10:00 - 16:00)",
+    "instructor-class": "10:00 - 12:00 - Занятие с инструктором",
+    "instructor-text":
+      "Не более 8 детей на одного инструктора в группе. Трассу и программу обучения каждый инструктор выбирает индивидуально, в соответствии с уровнем.",
   },
   az: {
     section1: "Proqram",
@@ -48,12 +53,15 @@ const translations = {
       "Şahdağ Xizək Düşərgəsində uşaqlar unudulmaz qış istirahəti keçirəcəklər. Qarlı dağların qoynunda yerləşən uşaq düşərgəmizə qoşulun. Xizək bacarıqlarını təkminləşdirmək və qışın sehrini yaşamaq üçün ideal fürsətdir.",
     "signup-button": "Qeydiyyatdan keçin",
     program: "Proqram",
-    "kids-registration": "9:00 - 9:45 - Uşaqların düşərgəyə qeydiyyatı",
+    "kids-registration": "9:00 - 9:45 - Uşaqların düşərgədə qeydiyyatı",
     "ski-schools": "Zirve Xizək Məktəbi / Şahdağ Xizək Məktəbi",
     preparation: "Xizək dərslərinə hazırlıq və düşərgə qaydaları ilə tanışlıq",
     prices: "Qiymətlər",
     "half-day": "Yarı gün: 120 ₼ (10:00 - 14:00)",
     "full-day": "Tam gün: 185 ₼ (10:00 - 16:00)",
+    "instructor-class": "10:00 - 12:00 - Təlimatçı ilə dərs",
+    "instructor-text":
+      "Bir təlimatçının  qrupunda maksumum 8 uşaq ola bilər. Hər bir təlimatçı uşaqların xizəksürmə qabilliyətinə uyğun olaraq marşrutu və təlim proqramını fərdi olaraq seçir.",
   },
 };
 

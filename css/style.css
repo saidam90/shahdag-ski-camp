@@ -148,15 +148,17 @@ body {
   line-height: 28px;
 }
 
-.section-text li {
+.section-text ul li {
   /* list-style-type: none; */
-  line-height: 40px;
+  line-height: 28px;
+  text-align: left;
 }
 
 .section-text li p {
   margin-bottom: 17px;
   list-style-type: none;
-  line-height: 20px;
+  /* line-height: 20px; */
+  text-align: left;
 }
 
 .title-small {
