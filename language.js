@@ -93,7 +93,7 @@ const translations = {
     section2: "Qiymətlər",
     section3: "Məlumat üçün",
     section4: "Bizimlə əlaqə",
-    "title-small": "Uşaqlar üçün",
+    "title-small": "Uşaqlara üçün",
     "page-title": "Qış düşərgəsi",
     "welcome-text":
       "Şahdağ Xizək Düşərgəsində uşaqlar unudulmaz qış istirahəti keçirəcəklər. Qarlı dağların qoynunda yerləşən düşərgəmizdə balaca qonaqlarımız xizək bacarıqlarını təkmiləşdirəcək və qış əyləncələrindən zövq alacaqlar!",
