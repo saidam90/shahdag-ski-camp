@@ -575,6 +575,8 @@ nav {
     -webkit-clip-path: circle(10px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
+    border: 1px white solid;
+    border-radius: 10px;
   }
 
   .navbar-item a {
