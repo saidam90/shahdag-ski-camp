@@ -566,7 +566,7 @@ nav {
 
   .navbar-list {
     background: #ffffff;
-    position: fixed;
+    position: absolute;
     opacity: 1;
     /* height: 100%; */
     width: 100%;
