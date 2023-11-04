@@ -362,6 +362,21 @@ nav {
     font-size: 1.6rem;
   }
 
+  .navbar-list {
+    background: #ffffff;
+    position: absolute;
+    opacity: 1;
+    /* height: 100%; */
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(50px at 90% -20%);
+    -webkit-clip-path: circle(10px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+    border: 1px white solid;
+    border-radius: 10px;
+  }
+
   .title {
     margin-top: 70rem;
     display: flex;
