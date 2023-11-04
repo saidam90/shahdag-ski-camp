@@ -87,6 +87,7 @@ const translations = {
     message: "Сообщение:",
     send: "Отправить",
     success: "Благодарим Вас за сообщение. Мы ответим Вам в ближайшее время.",
+    "clothes-changing": "12:00 - 12:30 - Время для переодевания.",
   },
   az: {
     section1: "Proqram",

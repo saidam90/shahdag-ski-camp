@@ -24,11 +24,16 @@
     <div class="container">
       <header class="header">
         <nav class="navbar" id="navbar">
-          <div class="navbar-logo">
+          <div id="logo">
             <a href="https://www.shahdag.az/ru">
               <img src="images/logo.png" alt="" />
             </a>
           </div>
+          <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
           <ul class="navbar-list" id="navbar-list">
             <li class="navbar-item">
               <a href="#section1" class="navbar-link" data-translate="section1">Программа</a>
@@ -182,7 +187,7 @@
         </div>
 
         </section>
-      </sections>
+      </div>
     </div>
 
     <footer>
@@ -210,5 +215,33 @@
     </footer>
 
     <script src="language.js"></script>
+    <script>
+   const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".navbar-list");
+  const links = document.querySelectorAll(".navbar-list li");
+
+  // Function to close the hamburger menu
+  function closeMenu() {
+    navLinks.classList.remove("open");
+    links.forEach(link => {
+      link.classList.remove("fade");
+    });
+    hamburger.classList.remove("toggle");
+  }
+
+  // Add event listeners to each link
+  links.forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  // Toggle the hamburger menu when the hamburger icon is clicked
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+      link.classList.toggle("fade");
+    });
+    hamburger.classList.toggle("toggle");
+  });
+    </script>
   </body>
 </html>
