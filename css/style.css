@@ -549,9 +549,10 @@ nav {
 
 @media screen and (max-width: 800px) {
   nav {
-    position: fixed;
+    position: relative;
     z-index: 3;
   }
+
   .hamburger {
     display: block;
     position: absolute;
